@@ -1,0 +1,45 @@
+/* Feuille de style Licorne - BICSON SAINT GERMAIN */
+
+/* RESET NORMALIZE */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("../img/background.png");
+}
+
+/* En-tete de la page  */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #C55394;
+    color: white;
+}
+
+header p {
+    margin-right: auto;
+}
+
+.liens_nav {
+    list-style: none;
+}
+
+.liens_nav li {
+    display: inline-block;
+}
+
+.liens_nav li a {
+    text-decoration: none;
+}
+
+
+
+
