@@ -24,6 +24,11 @@ header {
     color: white;
 }
 
+.font {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
 header p {
     margin-right: auto;
 }
@@ -98,6 +103,8 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 5px;
     text-align: center;
+    bottom: 20px;
+    position: relative;
 }
 
 /* 6- L'adresse de la page */
@@ -141,7 +148,13 @@ footer p {
     padding: 15px;
 }
 
+i {
+    padding: 20px;
+}
 
+.texte {
+    padding: 20px;
+} 
 
 
 
